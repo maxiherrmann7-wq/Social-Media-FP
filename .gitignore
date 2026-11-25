@@ -28,3 +28,6 @@ replay_pid*
 build
 # Ignore Kotlin plugin data
 .kotlin
+
+# Gradle wrapper jar must be committed so ./gradlew works
+!gradle/wrapper/gradle-wrapper.jar
